@@ -1,0 +1,26 @@
+package program4;
+
+
+public class Circle2 extends Circle
+{
+
+public Circle2(double x, double y, double radius)
+{
+   super(y,x,radius);
+}
+
+public boolean intersects(Circle other)
+{
+   double d;
+   //d becomes distance between both centers
+   d = Math.sqrt(Math.pow(center.x - other.center.x, 2) + 
+                 Math.pow(center.y - other.center.y, 2));
+   if (d <= (radius + other.radius))
+      return true;
+   else
+      return false;
+}
+
+
+
+}
