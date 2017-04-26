@@ -1,0 +1,4 @@
+On Circle.java at the scale method: It had an addition instead of a multiplication
+On Circle1.java at the intersects method: its supposed to be less than or equals
+On Circle2.java at the intersects method: d is less than or equals as equals is touching
+                                          also it must be compared to the real lenght of the two radius
